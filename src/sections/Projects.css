@@ -1,28 +1,103 @@
 .projects {
-  padding: 80px 20px;
-  background: #fff;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f9fafb, #eef2f3);
   text-align: center;
 }
 
-.projects h2 {
-  margin-bottom: 40px;
-  font-size: 2rem;
+.projects-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2c3e50;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-}
-.project-card {
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  transition: 0.3s;
-  background: #fefefe;
+  gap: 1.5rem;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-  border-color: #64ffda;
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease-in-out;
+  text-align: left;
+}
+
+.project-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+
+.project-details {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: #2d3748;
+}
+
+.lang {
+  font-size: 0.85rem;
+  margin-top: 0.6rem;
+  font-weight: 600;
+  color: #3182ce;
+}
+
+.project-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-links a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+  color: #2b6cb0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-links a:hover {
+  color: #1a365d;
+}
+
+.project-links button {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #3182ce;
+  color: white;
+  transition: background 0.3s;
+}
+
+.project-links button:hover {
+  background: #2b6cb0;
+}
+
+.show-more-btn {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  background: #1a202c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.show-more-btn:hover {
+  background: #2d3748;
 }

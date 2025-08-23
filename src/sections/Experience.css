@@ -1,46 +1,89 @@
 .experience {
+  background: #0a192f;
+  color: #ccd6f6;
   padding: 80px 20px;
-  background: #f9f9f9;
   text-align: center;
 }
 
-.experience h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  color: #0a192f;
+.experience-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #64ffda;
+  animation: fadeInDown 1.2s ease-in-out;
 }
 
 .experience-list {
   max-width: 900px;
-  margin: 0 auto;
-  display: grid;
-  gap: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .experience-card {
-  background: white;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.timeline-content {
+  background: #112240;
   padding: 25px;
-  border-radius: 10px;
-  border-left: 5px solid #64ffda;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  transition: 0.3s;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(100, 255, 218, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: left;
 }
 
-.experience-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+.timeline-content:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(100, 255, 218, 0.6);
+}
+
+.role {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
 }
 
 .company {
-  display: block;
-  font-weight: bold;
-  color: #112240;
+  font-size: 1.1rem;
+  color: #64ffda;
+  margin-bottom: 8px;
 }
 
-.duration {
+.date {
   display: block;
   font-size: 0.9rem;
-  color: #555;
-  margin-bottom: 10px;
+  color: #8892b0;
+  margin-bottom: 15px;
+}
+
+.timeline-content ul {
+  text-align: left;
+  color: #a8b2d1;
+  line-height: 1.6;
+}
+
+.timeline-content li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline-content li::before {
+  content: "▹";
+  color: #64ffda;
+  position: absolute;
+  left: 0;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }

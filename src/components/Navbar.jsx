@@ -1,10 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-
+import logo from "../assets/logo.png";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">Anup Adhikari</div>
+      <div className="logo">Anup Adhikari
+        <img src={logo} alt="logo"/>
+      </div>
       <ul className="nav-links">
         <li><a href="#hero">Home</a></li>
         <li><a href="#about">About</a></li>
