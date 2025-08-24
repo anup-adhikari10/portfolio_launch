@@ -18,16 +18,31 @@ function Footer() {
 
         {/* Social Links */}
         <div className="footer-socials">
-          <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/anup_adhikari11/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
             <FaInstagram />
           </a>
-          <a href="https://github.com/anupadhikari" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/anup-adhikari10"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/anupadhikari" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/anup-adhikari-7541b81b9/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
             <FaLinkedin />
           </a>
-          <a href="mailto:aadhikari31@student.ysu.edu">
+          <a href="mailto:adhikariianup10@gmail.com" aria-label="Email">
             <FaEnvelope />
           </a>
         </div>

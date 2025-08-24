@@ -8,6 +8,10 @@ import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
+import Education from "./sections/Education";
+import Languages from "./sections/Languages";
+import ResearchPapers from "./sections/ResearchPaper";
+import Certifications from "./sections/Certifications";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
+      <Education/>
+      <ResearchPapers/>
+      <Certifications/>
+      <Languages/>
       <Contact />
       <Footer />
     </div>

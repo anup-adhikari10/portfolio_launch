@@ -1,0 +1,114 @@
+.research {
+  padding: 4rem 2rem;
+  background: #0a192f;
+  color: #ccd6f6;
+  text-align: center;
+}
+
+.research-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #64ffda;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.research-card {
+  background: #112240;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(100, 255, 218, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.research-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(100, 255, 218, 0.6);
+}
+
+.research-card h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.research-card p {
+  font-size: 1rem;
+  color: #a8b2d1;
+  margin-bottom: 10px;
+}
+
+.research-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.research-links a {
+  color: #64ffda;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.research-links button {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #64ffda;
+  color: #0a192f;
+  transition: background 0.3s;
+}
+
+.research-links button:hover {
+  background: #52e0b4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .research-title {
+    font-size: 2.1rem;
+    margin-bottom: 40px;
+  }
+
+  .research-card h3 {
+    font-size: 1.15rem;
+  }
+
+  .research-card p {
+    font-size: 0.95rem;
+  }
+
+  .research-links button {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .research-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .research-card h3 {
+    font-size: 1rem;
+  }
+
+  .research-card p {
+    font-size: 0.9rem;
+  }
+
+  .research-links button {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+}

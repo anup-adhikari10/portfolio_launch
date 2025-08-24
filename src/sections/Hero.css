@@ -8,6 +8,7 @@
   color: #ccd6f6;
   text-align: center;
   overflow: hidden;
+  padding: 0 15px;
 }
 
 .hero-content {
@@ -16,17 +17,52 @@
   animation: fadeIn 2s ease-in-out;
 }
 
+/* Responsive content width */
+@media (max-width: 768px) {
+  .hero-content {
+    max-width: 90%;
+  }
+}
+
 .hero-title {
   font-size: 2.5rem;
   margin-bottom: 15px;
   animation: slideDown 1s ease-in-out;
 }
 
+/* Responsive hero title */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.7rem;
+  }
+}
+
 .hero-subtitle {
   font-size: 1.5rem;
   margin-bottom: 20px;
   color: #64ffda;
-  height: 35px; /* keep space for typing animation */
+  height: 35px; /* space for typing animation */
+}
+
+/* Responsive subtitle */
+@media (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 1.3rem;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-subtitle {
+    font-size: 1.1rem;
+    height: 25px;
+  }
 }
 
 /* Typing animation */
@@ -48,10 +84,24 @@
   animation: fadeInUp 2s ease-in-out;
 }
 
+/* Responsive description */
+@media (max-width: 768px) {
+  .hero-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-description {
+    font-size: 0.9rem;
+  }
+}
+
 .hero-buttons {
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -60,6 +110,21 @@
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
+}
+
+/* Responsive buttons */
+@media (max-width: 768px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
 }
 
 .btn.primary {
@@ -95,9 +160,20 @@
   animation: float 6s ease-in-out infinite;
 }
 
+/* Responsive glow sizes */
+@media (max-width: 768px) {
+  .glow1 { width: 200px; height: 200px; }
+  .glow2 { width: 250px; height: 250px; }
+  .glow3 { width: 150px; height: 150px; }
+}
+
+@media (max-width: 480px) {
+  .glow1 { width: 150px; height: 150px; }
+  .glow2 { width: 200px; height: 200px; }
+  .glow3 { width: 120px; height: 120px; }
+}
+
 .glow1 {
-  width: 250px;
-  height: 250px;
   background: #64ffda;
   top: 10%;
   left: 20%;
@@ -105,8 +181,6 @@
 }
 
 .glow2 {
-  width: 300px;
-  height: 300px;
   background: #ff00ff;
   bottom: 15%;
   right: 20%;
@@ -114,8 +188,6 @@
 }
 
 .glow3 {
-  width: 200px;
-  height: 200px;
   background: #00f7ff;
   top: 30%;
   right: 10%;
@@ -123,31 +195,9 @@
 }
 
 /* Animations */
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes slideDown {
-  from { transform: translateY(-30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes fadeInUp {
-  from { transform: translateY(30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-}
+@keyframes typing { from { width: 0; } to { width: 100%; } }
+@keyframes blink { 50% { border-color: transparent; } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideDown { from { transform: translateY(-30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@keyframes fadeInUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }

@@ -5,11 +5,45 @@
   text-align: center;
 }
 
+
+@media (max-width: 992px) {
+  .about {
+    padding: 60px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 40px 5px;
+  }
+}
+
 .about-title {
   font-size: 2rem;
   color: #64ffda;
   margin-bottom: 40px;
   animation: fadeInDown 1s ease-in-out;
+}
+
+/* Responsive title */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
 }
 
 .about-container {
@@ -35,16 +69,60 @@
   box-shadow: 0 0 20px #64ffda;
 }
 
+
+@media (max-width: 768px) {
+  .about-image img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 .about-text {
   text-align: left;
   max-width: 700px;
   animation: fadeInUp 1.5s ease-in-out;
 }
 
+
+@media (max-width: 768px) {
+  .about-text {
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-text {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
 .about-text p {
   margin-bottom: 18px;
   line-height: 1.6;
   color: #a8b2d1;
+  font-size: 0.95rem;
+}
+
+
+@media (max-width: 768px) {
+  .about-text p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-text p {
+    font-size: 0.85rem;
+  }
 }
 
 .highlight {
@@ -52,26 +130,25 @@
   font-weight: 600;
 }
 
-.cv-button {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 12px 25px;
-  background: transparent;
-  border: 2px solid #64ffda;
-  color: #64ffda;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
+
+
+
+
+@media (max-width: 768px) {
+  .cv-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
 }
 
-.cv-button:hover {
-  background: #64ffda;
-  color: #0a192f;
-  box-shadow: 0 0 15px #64ffda;
+@media (max-width: 480px) {
+  .cv-button {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
 }
 
-/* Animations */
+
 @keyframes fadeInUp {
   from {
     transform: translateY(30px);

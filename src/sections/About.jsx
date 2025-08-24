@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profileImg from "../assets/react.svg"; // replace with your image
+import profileImg from "../assets/photo.png"; // replace with your image
 
 function About() {
   return (
@@ -25,7 +25,7 @@ function About() {
             <span className="highlight">React</span>,{" "}
             <span className="highlight">Python</span>, and{" "}
             <span className="highlight">Node.js</span>. I have professional experience in
-            <span className="highlight"> US Healthcare IT</span> and a passion for creating efficient,
+            <span className="highlight"> US Healthcare System</span> and a passion for creating efficient,
             user-centered solutions.
           </p>
 
@@ -33,9 +33,7 @@ function About() {
             When I'm not coding, you can find me contributing to open-source, solving complex problems, or exploring the latest in tech and data. I'm always eager to take on new challenges and bring ideas to life. 🚀
           </p>
 
-          <a href="/resume.pdf" className="cv-button" download>
-            Download CV
-          </a>
+         
         </div>
       </div>
     </section>

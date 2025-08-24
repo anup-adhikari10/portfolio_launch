@@ -5,11 +5,44 @@
   text-align: center;
 }
 
+
+@media (max-width: 992px) {
+  .experience {
+    padding: 70px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 60px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience {
+    padding: 50px 5px;
+  }
+}
+
 .experience-title {
   font-size: 2.5rem;
   margin-bottom: 50px;
   color: #64ffda;
   animation: fadeInDown 1.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .experience-title {
+    font-size: 2.1rem;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
 }
 
 .experience-list {
@@ -18,6 +51,19 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+
+@media (max-width: 768px) {
+  .experience-list {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-list {
+    gap: 20px;
+  }
 }
 
 .experience-card {
@@ -33,6 +79,19 @@
   text-align: left;
 }
 
+
+@media (max-width: 768px) {
+  .timeline-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-content {
+    padding: 15px;
+  }
+}
+
 .timeline-content:hover {
   transform: translateY(-8px);
   box-shadow: 0 0 25px rgba(100, 255, 218, 0.6);
@@ -45,10 +104,36 @@
   margin-bottom: 5px;
 }
 
+
+@media (max-width: 768px) {
+  .role {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .role {
+    font-size: 1rem;
+  }
+}
+
 .company {
   font-size: 1.1rem;
   color: #64ffda;
   margin-bottom: 8px;
+}
+
+
+@media (max-width: 768px) {
+  .company {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .company {
+    font-size: 0.95rem;
+  }
 }
 
 .date {
@@ -58,10 +143,36 @@
   margin-bottom: 15px;
 }
 
+
+@media (max-width: 768px) {
+  .date {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .date {
+    font-size: 0.8rem;
+  }
+}
+
 .timeline-content ul {
   text-align: left;
   color: #a8b2d1;
   line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .timeline-content ul {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-content ul {
+    font-size: 0.85rem;
+  }
 }
 
 .timeline-content li {
@@ -77,7 +188,7 @@
   left: 0;
 }
 
-/* Animations */
+
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-20px); }
   to { opacity: 1; transform: translateY(0); }
