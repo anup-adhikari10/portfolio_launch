@@ -8,12 +8,12 @@ export default function Education() {
       <div className="education-card">
         <h3>Youngstown State University, USA</h3>
         <p>Master of Science in Data Science and Statistics (Ongoing)</p>
-        <p>2024 – Present</p>
+        <p>2025 – Present</p>
       </div>
 
       <div className="education-card">
         <h3>Tribhuvan University, Nepal</h3>
-        <p>Bachelor of Science in Computer Science and Information Technology</p>
+        <p>Bachelor of Engineering in Computer Engineering</p>
         <p>2019 – 2023</p>
       </div>
     </section>
