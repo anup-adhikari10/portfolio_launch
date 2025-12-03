@@ -14,7 +14,7 @@ export default function Education() {
       <div className="education-card">
         <h3>Tribhuvan University, Nepal</h3>
         <p>Bachelor of Engineering in Computer Engineering</p>
-        <p>2019 – 2023</p>
+        <p>2018 – 2023</p>
       </div>
     </section>
   );
