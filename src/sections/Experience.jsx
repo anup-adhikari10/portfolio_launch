@@ -4,6 +4,17 @@ import "./Experience.css";
 function Experience() {
   const experiences = [
     {
+  role: "Graduate Assistant",
+  company: "Youngstown State University – YCSD",
+  date: "Jan 2026 – May 2026 (Ongoing)",
+  details: [
+    "Taught and mentored high school students in Mathematics",
+    "Assisted students with problem-solving techniques, and logical thinking skills.",
+    "Prepared lesson materials, assignments, and assessments aligned with academic standards.",
+    "Collaborated with faculty and school staff to support student learning and classroom engagement.",
+  ],
+},
+    {
       role: "Software Engineer + US Healthcare Trainee",
       company: "Infinite Computer Solutions",
       date: "Jan 2025 – Apr 2025",

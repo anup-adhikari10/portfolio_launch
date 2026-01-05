@@ -12,8 +12,8 @@ function Hero() {
         </h2>
 
         <p className="hero-description">
-          A dedicated developer crafting robust full-stack solutions with a passion for data and user-centric design. Currently advancing my expertise in Data Science to build intelligent, data-driven applications.
-        </p>
+          A data-driven developer specializing in full-stack solutions, with a strong interest in Data Science and analytics. 
+          Focused on leveraging data, machine learning fundamentals, and user-centric design to build intelligent and impactful applications. </p>
 
         <div className="hero-buttons">
           <a href="#contact" className="btn primary">Contact Me</a>

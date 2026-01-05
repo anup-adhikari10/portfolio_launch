@@ -4,7 +4,7 @@ const certifications = [
     link: "https://www.udemy.com/certificate/UC-64064d0b-0742-47dc-aef0-6521976de21b/",
     details: "Learned how do we use machine learning algorithms in different dataset for generating models and check for precise models for datasets."
   },
- {
+  {
     title: "100 Days of Code: The Complete Python Pro Bootcamp",
     link: "https://www.udemy.com/certificate/UC-64eb1267-d1a0-4c6b-b5a0-8dc1b0623280/",
     details: "Completed 100 days of Python coding projects covering data structures, OOP, APIs, and GUI development using Tkinter."
@@ -24,13 +24,11 @@ const certifications = [
     link: "https://www.coursera.org/account/accomplishments/specialization/4ANN6K2HC6MV",
     details: "Gained strong foundations in Python, data structures, web scraping, and using Python for data analysis and automation."
   },
-
   {
     title: "Leadership Development for Engineers",
     link: "https://www.coursera.org/account/accomplishments/specialization/PVWMD5FVDLRS",
     details: "Focused on leadership skills, team management, and communication strategies for engineering projects."
   },
- 
     {
     title: "Java FullStack Developer Specialization",
     link: "https://www.coursera.org/account/accomplishments/specialization/46Y3UP7GMTQS",
