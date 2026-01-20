@@ -8,7 +8,7 @@ function Hero() {
         <h1 className="hero-title">Hi, I'm <span className="highlight">Anup Adhikari</span></h1>
 
         <h2 className="hero-subtitle">
-          <span className="typing-text">Computer Engineer | Full-Stack Developer | Data Science Student </span>
+          <span className="typing-text">Computer Engineer | Data Science Student </span>
         </h2>
 
         <p className="hero-description">
